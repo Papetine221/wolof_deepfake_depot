@@ -2,6 +2,8 @@
 
 Code, protocoles et résultats du mémoire de Master 2 Informatique (UGB, UFR SAT) « Détection de deepfakes audio en wolof : constitution d'une base de données et évaluation comparative de détecteurs ».
 
+Auteur : Pape Doukoum TINE, sous la direction du Dr. Cheikh Mouhamadou Bamba Dione. Année universitaire 2024–2025.
+
 **Aucun fichier audio n'est fourni.** La base contient des voix de personnes réelles (corpus Kallaama) et des faux qui en sont dérivés : elle n'est pas redistribuée. Les scripts permettent de la reconstruire à partir du corpus d'origine et des modèles publics.
 
 ## La base
