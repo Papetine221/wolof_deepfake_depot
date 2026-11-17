@@ -1,0 +1,236 @@
+{
+ "show_id": {
+  "manuel": {
+   "vu": {
+    "n": 548,
+    "rejetes": 109,
+    "FRR": 19.9,
+    "IC95": [
+     16.6,
+     23.5
+    ],
+    "AUC_moy_plis": 0.8753
+   },
+   "non_vu": {
+    "n": 68,
+    "rejetes": 16,
+    "FRR": 23.5,
+    "IC95": [
+     14.1,
+     35.4
+    ],
+    "AUC_moy_plis": 0.8579
+   },
+   "p_fisher": 0.522
+  },
+  "wav2vec2": {
+   "vu": {
+    "n": 548,
+    "rejetes": 35,
+    "FRR": 6.4,
+    "IC95": [
+     4.5,
+     8.8
+    ],
+    "AUC_moy_plis": 0.9852
+   },
+   "non_vu": {
+    "n": 68,
+    "rejetes": 5,
+    "FRR": 7.4,
+    "IC95": [
+     2.4,
+     16.3
+    ],
+    "AUC_moy_plis": 0.9849
+   },
+   "p_fisher": 0.793
+  },
+  "wavlm": {
+   "vu": {
+    "n": 548,
+    "rejetes": 33,
+    "FRR": 6.0,
+    "IC95": [
+     4.2,
+     8.4
+    ],
+    "AUC_moy_plis": 0.9887
+   },
+   "non_vu": {
+    "n": 68,
+    "rejetes": 1,
+    "FRR": 1.5,
+    "IC95": [
+     0.0,
+     7.9
+    ],
+    "AUC_moy_plis": 0.9946
+   },
+   "p_fisher": 0.16
+  },
+  "mms": {
+   "vu": {
+    "n": 548,
+    "rejetes": 11,
+    "FRR": 2.0,
+    "IC95": [
+     1.0,
+     3.6
+    ],
+    "AUC_moy_plis": 0.999
+   },
+   "non_vu": {
+    "n": 68,
+    "rejetes": 2,
+    "FRR": 2.9,
+    "IC95": [
+     0.4,
+     10.2
+    ],
+    "AUC_moy_plis": 0.9984
+   },
+   "p_fisher": 0.645
+  },
+  "xlsr": {
+   "vu": {
+    "n": 548,
+    "rejetes": 7,
+    "FRR": 1.3,
+    "IC95": [
+     0.5,
+     2.6
+    ],
+    "AUC_moy_plis": 0.9992
+   },
+   "non_vu": {
+    "n": 68,
+    "rejetes": 2,
+    "FRR": 2.9,
+    "IC95": [
+     0.4,
+     10.2
+    ],
+    "AUC_moy_plis": 0.9936
+   },
+   "p_fisher": 0.261
+  }
+ },
+ "file_id": {
+  "manuel": {
+   "vu": {
+    "n": 399,
+    "rejetes": 80,
+    "FRR": 20.1,
+    "IC95": [
+     16.2,
+     24.3
+    ],
+    "AUC_moy_plis": 0.8776
+   },
+   "non_vu": {
+    "n": 217,
+    "rejetes": 45,
+    "FRR": 20.7,
+    "IC95": [
+     15.5,
+     26.7
+    ],
+    "AUC_moy_plis": 0.8666
+   },
+   "p_fisher": 0.835
+  },
+  "wav2vec2": {
+   "vu": {
+    "n": 399,
+    "rejetes": 25,
+    "FRR": 6.3,
+    "IC95": [
+     4.1,
+     9.1
+    ],
+    "AUC_moy_plis": 0.9873
+   },
+   "non_vu": {
+    "n": 217,
+    "rejetes": 15,
+    "FRR": 6.9,
+    "IC95": [
+     3.9,
+     11.1
+    ],
+    "AUC_moy_plis": 0.9817
+   },
+   "p_fisher": 0.736
+  },
+  "wavlm": {
+   "vu": {
+    "n": 399,
+    "rejetes": 22,
+    "FRR": 5.5,
+    "IC95": [
+     3.5,
+     8.2
+    ],
+    "AUC_moy_plis": 0.9894
+   },
+   "non_vu": {
+    "n": 217,
+    "rejetes": 12,
+    "FRR": 5.5,
+    "IC95": [
+     2.9,
+     9.5
+    ],
+    "AUC_moy_plis": 0.9887
+   },
+   "p_fisher": 1.0
+  },
+  "mms": {
+   "vu": {
+    "n": 399,
+    "rejetes": 7,
+    "FRR": 1.8,
+    "IC95": [
+     0.7,
+     3.6
+    ],
+    "AUC_moy_plis": 0.9992
+   },
+   "non_vu": {
+    "n": 217,
+    "rejetes": 6,
+    "FRR": 2.8,
+    "IC95": [
+     1.0,
+     5.9
+    ],
+    "AUC_moy_plis": 0.9986
+   },
+   "p_fisher": 0.396
+  },
+  "xlsr": {
+   "vu": {
+    "n": 399,
+    "rejetes": 5,
+    "FRR": 1.3,
+    "IC95": [
+     0.4,
+     2.9
+    ],
+    "AUC_moy_plis": 0.9992
+   },
+   "non_vu": {
+    "n": 217,
+    "rejetes": 4,
+    "FRR": 1.8,
+    "IC95": [
+     0.5,
+     4.7
+    ],
+    "AUC_moy_plis": 0.9977
+   },
+   "p_fisher": 0.727
+  }
+ }
+}

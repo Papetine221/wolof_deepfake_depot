@@ -60,7 +60,10 @@ ax.set_xticks(range(3)); ax.set_xticklabels([n for _, n in fams]); ax.set_ylabel
 ax.set_ylim(0, 56); ax.legend(frameon=False, loc='upper left', fontsize=8.5, ncol=2)
 save(fig, 'fig_eer_logo')
 # 3) courbe d'apprentissage
-xs = [CUR[k]['n_pers'] for k in ('0.25', '0.5', '0.75', '1.0')]; ym = [CUR[k]['mean'] for k in ('0.25', '0.5', '0.75', '1.0')]; ys = [CUR[k]['sd'] for k in ('0.25', '0.5', '0.75', '1.0')]
+_pf = __import__('collections').Counter(v['fold'] for v in json.load(open('data_v2/manifest_v2.json', encoding='utf-8'))['persons'].values())
+_np = sum(_pf.values())
+# nombre moyen de personnes d'entrainement sur les plis (n_pers ne donne que le dernier pli)
+xs = [float(np.mean([max(2, round(float(k) * (_np - _pf[f]))) for f in range(5)])) for k in ('0.25', '0.5', '0.75', '1.0')]; ym = [CUR[k]['mean'] for k in ('0.25', '0.5', '0.75', '1.0')]; ys = [CUR[k]['sd'] for k in ('0.25', '0.5', '0.75', '1.0')]
 fig, ax = plt.subplots(figsize=(5.2, 3.3))
 ax.errorbar(xs, ym, yerr=ys, marker='o', color=COL['XLS-R'], capsize=4, lw=2)
 for x, y_ in zip(xs, ym): ax.annotate('%.2f' % y_, (x, y_), textcoords='offset points', xytext=(6, 7), fontsize=8.5)

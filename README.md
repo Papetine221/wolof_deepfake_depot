@@ -35,6 +35,7 @@ Dans les noms de fichiers, « v2 » désigne cette base finale. Les fichiers san
 | Courbe d'apprentissage | `cv_v2_curve.py` |
 | LCNN-Mel | `cv_v2_lcnn.py` (hyperparamètres de `train_all.py`, modèle dans `src/`) |
 | Intervalles de confiance, seuil fixe | `audit/metrics_extra.py` |
+| Émissions vues ou non vues à l'entraînement | `audit/controle_emission.py` |
 | Test exploratoire Oolel (S04) | `audit/test_s04_oolel.py` (WavLM), `audit/test_s04_oolel_xlsr.py` (XLS-R) |
 | Contrôle de la fuite de voix (base préliminaire) | `extract_pretrained.py`, `cv_pretrained_group.py`, `cv_pretrained_group2.py` (WavLM, wav2vec 2.0) ; `extract_pretrained_xl_prelim.py`, `cv_pretrained_group_xl.py` (XLS-R, MMS) ; `audit/leak_groups.py` |
 | Figures du mémoire | `audit/make_figures_v2.py` |

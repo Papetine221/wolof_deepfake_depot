@@ -1,0 +1,10 @@
+show_id manuel   | vu : 109/548 =  19.9 % [16.6, 23.5] AUC 0.8753 | non vu :  16/ 68 =  23.5 % [14.1, 35.4] AUC 0.8579 | Fisher p = 0.522
+show_id wav2vec2 | vu :  35/548 =   6.4 % [4.5, 8.8] AUC 0.9852 | non vu :   5/ 68 =   7.4 % [2.4, 16.3] AUC 0.9849 | Fisher p = 0.793
+show_id wavlm    | vu :  33/548 =   6.0 % [4.2, 8.4] AUC 0.9887 | non vu :   1/ 68 =   1.5 % [0.0, 7.9] AUC 0.9946 | Fisher p = 0.16
+show_id mms      | vu :  11/548 =   2.0 % [1.0, 3.6] AUC 0.999 | non vu :   2/ 68 =   2.9 % [0.4, 10.2] AUC 0.9984 | Fisher p = 0.645
+show_id xlsr     | vu :   7/548 =   1.3 % [0.5, 2.6] AUC 0.9992 | non vu :   2/ 68 =   2.9 % [0.4, 10.2] AUC 0.9936 | Fisher p = 0.261
+file_id manuel   | vu :  80/399 =  20.1 % [16.2, 24.3] AUC 0.8776 | non vu :  45/217 =  20.7 % [15.5, 26.7] AUC 0.8666 | Fisher p = 0.835
+file_id wav2vec2 | vu :  25/399 =   6.3 % [4.1, 9.1] AUC 0.9873 | non vu :  15/217 =   6.9 % [3.9, 11.1] AUC 0.9817 | Fisher p = 0.736
+file_id wavlm    | vu :  22/399 =   5.5 % [3.5, 8.2] AUC 0.9894 | non vu :  12/217 =   5.5 % [2.9, 9.5] AUC 0.9887 | Fisher p = 1.0
+file_id mms      | vu :   7/399 =   1.8 % [0.7, 3.6] AUC 0.9992 | non vu :   6/217 =   2.8 % [1.0, 5.9] AUC 0.9986 | Fisher p = 0.396
+file_id xlsr     | vu :   5/399 =   1.3 % [0.4, 2.9] AUC 0.9992 | non vu :   4/217 =   1.8 % [0.5, 4.7] AUC 0.9977 | Fisher p = 0.727
