@@ -1,0 +1,88 @@
+{
+ "0.5": {
+  "clusters_crossing_splits": 5,
+  "speakers_with_cross_split_voice": {
+   "train": [
+    "SPK00",
+    "SPK01",
+    "SPK07",
+    "SPK09"
+   ],
+   "dev": [
+    "SPK02",
+    "SPK05"
+   ],
+   "eval": [
+    "SPK06"
+   ]
+  }
+ },
+ "0.6": {
+  "clusters_crossing_splits": 5,
+  "speakers_with_cross_split_voice": {
+   "train": [
+    "SPK00",
+    "SPK07",
+    "SPK09"
+   ],
+   "dev": [
+    "SPK02",
+    "SPK05"
+   ],
+   "eval": [
+    "SPK06"
+   ]
+  }
+ },
+ "0.65": {
+  "clusters_crossing_splits": 5,
+  "speakers_with_cross_split_voice": {
+   "train": [
+    "SPK00",
+    "SPK07",
+    "SPK09"
+   ],
+   "dev": [
+    "SPK02",
+    "SPK05"
+   ],
+   "eval": [
+    "SPK06"
+   ]
+  }
+ },
+ "0.7": {
+  "clusters_crossing_splits": 5,
+  "speakers_with_cross_split_voice": {
+   "train": [
+    "SPK00",
+    "SPK07",
+    "SPK09"
+   ],
+   "dev": [
+    "SPK02",
+    "SPK05"
+   ],
+   "eval": [
+    "SPK06"
+   ]
+  }
+ },
+ "0.8": {
+  "clusters_crossing_splits": 5,
+  "speakers_with_cross_split_voice": {
+   "train": [
+    "SPK00",
+    "SPK07",
+    "SPK09"
+   ],
+   "dev": [
+    "SPK02",
+    "SPK05"
+   ],
+   "eval": [
+    "SPK06"
+   ]
+  }
+ }
+}

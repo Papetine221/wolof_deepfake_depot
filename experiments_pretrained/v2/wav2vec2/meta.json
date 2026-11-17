@@ -1,0 +1,7 @@
+{
+ "model": "facebook__wav2vec2-base",
+ "n_files": 2882,
+ "crop_s": 4.0,
+ "seconds": 1739.8,
+ "torch": "2.13.0+cpu"
+}

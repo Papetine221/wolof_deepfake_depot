@@ -1,0 +1,10 @@
+{
+ "model": "facebook__wav2vec2-xls-r-300m",
+ "n_files": 1012,
+ "n_layers_saved": 25,
+ "crop_s": 4.0,
+ "peak_normalized": true,
+ "model_normalize": true,
+ "seconds": 2086.9,
+ "torch": "2.13.0+cpu"
+}

@@ -1,0 +1,12 @@
+{
+ "model": "facebook__wav2vec2-base",
+ "revision": "0b5b8e868dd84f03fd87d01f9c4ff0f080fecfe8",
+ "n_files": 1012,
+ "n_layers_saved": 13,
+ "crop_s": 4.0,
+ "peak_normalized": true,
+ "model_normalize": true,
+ "frames": 199,
+ "seconds": 700.0,
+ "torch": "2.13.0+cpu"
+}

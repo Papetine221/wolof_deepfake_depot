@@ -1,0 +1,6 @@
+clips S04 egalises 8
+seuil EER hors-pli 0.866 (EER 4.67 %)
+scores S04 [-7.46, -1.15, -5.56, 1.05, 1.56, -9.02, -11.27, -6.2]
+detectes comme faux au seuil EER : 2 / 8 ; au seuil 0 : 2 / 8
+AUC S04 vs vrais (scores hors-pli) : 0.558
+EER S04 vs vrais : 48.78 %

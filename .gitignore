@@ -1,0 +1,42 @@
+# Audio : jamais dans le dépôt (voix de personnes réelles et faux dérivés)
+*.wav
+*.mp3
+*.flac
+*.ogg
+*.m4a
+*.opus
+
+# Corpus et données audio
+speech_dataset/
+data/*
+!data/manifest_stm.json
+!data/protocols_new/
+data_v2/*
+!data_v2/manifest_v2.json
+!data_v2/eq/
+data_v2/eq/*
+!data_v2/eq/eq_summary.json
+
+# Modèles et poids
+pretrained_models/
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+
+# Représentations extraites, empreintes de voix, caches
+*.npy
+*.npz
+cache_mel/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Divers
+.ipynb_checkpoints/
+*.log
+.DS_Store

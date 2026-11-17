@@ -1,0 +1,12 @@
+{
+ "model": "microsoft__wavlm-base",
+ "revision": "efa81aae7ff777e464159e0f877d54eac5b84f81",
+ "n_files": 1012,
+ "n_layers_saved": 13,
+ "crop_s": 4.0,
+ "peak_normalized": true,
+ "model_normalize": false,
+ "frames": 199,
+ "seconds": 688.4,
+ "torch": "2.13.0+cpu"
+}

@@ -1,0 +1,57 @@
+{
+ "tous|fold0": {
+  "test_eer": 5.986,
+  "test_auc": 0.980053,
+  "dev_eer": 8.5714,
+  "eer_per_system": {
+   "S01": 6.5789,
+   "S02": 5.8824,
+   "S03": 2.4923
+  },
+  "best_epoch": 25
+ },
+ "tous|fold1": {
+  "test_eer": 9.3957,
+  "test_auc": 0.974783,
+  "dev_eer": 9.1409,
+  "eer_per_system": {
+   "S01": 10.0,
+   "S02": 7.1429,
+   "S03": 0.4032
+  },
+  "best_epoch": 27
+ },
+ "tous|fold2": {
+  "test_eer": 8.5592,
+  "test_auc": 0.968378,
+  "dev_eer": 9.4595,
+  "eer_per_system": {
+   "S01": 8.2707,
+   "S02": 8.1301,
+   "S03": 3.2581
+  },
+  "best_epoch": 24
+ },
+ "tous|fold3": {
+  "test_eer": 10.428,
+  "test_auc": 0.961533,
+  "dev_eer": 6.7978,
+  "eer_per_system": {
+   "S01": 10.8108,
+   "S02": 13.627,
+   "S03": 2.027
+  },
+  "best_epoch": 16
+ },
+ "tous|fold4": {
+  "test_eer": 8.1818,
+  "test_auc": 0.978168,
+  "dev_eer": 5.0773,
+  "eer_per_system": {
+   "S01": 7.0,
+   "S02": 9.0909,
+   "S03": 2.8788
+  },
+  "best_epoch": 29
+ }
+}

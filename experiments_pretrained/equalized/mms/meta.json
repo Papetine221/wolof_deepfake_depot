@@ -1,0 +1,10 @@
+{
+ "model": "facebook__mms-300m",
+ "n_files": 1012,
+ "n_layers_saved": 25,
+ "crop_s": 4.0,
+ "peak_normalized": true,
+ "model_normalize": true,
+ "seconds": 1864.6,
+ "torch": "2.13.0+cpu"
+}

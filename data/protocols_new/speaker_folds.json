@@ -1,0 +1,110 @@
+{
+  "k": 5,
+  "folds": [
+    {
+      "fold": 0,
+      "train": [
+        "SPK00",
+        "SPK02",
+        "SPK03",
+        "SPK04",
+        "SPK05",
+        "SPK07",
+        "SPK08",
+        "SPK09"
+      ],
+      "eval": [
+        "SPK01",
+        "SPK06"
+      ],
+      "eval_shows": [
+        "47",
+        "54"
+      ]
+    },
+    {
+      "fold": 1,
+      "train": [
+        "SPK01",
+        "SPK02",
+        "SPK04",
+        "SPK05",
+        "SPK06",
+        "SPK07",
+        "SPK08",
+        "SPK09"
+      ],
+      "eval": [
+        "SPK00",
+        "SPK03"
+      ],
+      "eval_shows": [
+        "4",
+        "8"
+      ]
+    },
+    {
+      "fold": 2,
+      "train": [
+        "SPK00",
+        "SPK01",
+        "SPK03",
+        "SPK04",
+        "SPK05",
+        "SPK06",
+        "SPK07",
+        "SPK08"
+      ],
+      "eval": [
+        "SPK02",
+        "SPK09"
+      ],
+      "eval_shows": [
+        "30",
+        "41"
+      ]
+    },
+    {
+      "fold": 3,
+      "train": [
+        "SPK00",
+        "SPK01",
+        "SPK02",
+        "SPK03",
+        "SPK06",
+        "SPK07",
+        "SPK08",
+        "SPK09"
+      ],
+      "eval": [
+        "SPK04",
+        "SPK05"
+      ],
+      "eval_shows": [
+        "2",
+        "6"
+      ]
+    },
+    {
+      "fold": 4,
+      "train": [
+        "SPK00",
+        "SPK01",
+        "SPK02",
+        "SPK03",
+        "SPK04",
+        "SPK05",
+        "SPK06",
+        "SPK09"
+      ],
+      "eval": [
+        "SPK07",
+        "SPK08"
+      ],
+      "eval_shows": [
+        "29",
+        "46"
+      ]
+    }
+  ]
+}

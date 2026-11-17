@@ -1,0 +1,42 @@
+{
+  "condition": "v2eq",
+  "feature": "mel",
+  "model": "LCNN",
+  "seed": 0,
+  "epochs": 30,
+  "best_epoch": 27,
+  "dev_eer": 9.1409,
+  "dev_auc": 0.961215,
+  "dev_threshold": 0.854299,
+  "eval_eer": 9.3957,
+  "eval_auc": 0.974783,
+  "eval_threshold": 0.783386,
+  "eer_per_system": {
+    "S01": 10.0,
+    "S02": 7.1429,
+    "S03": 0.4032
+  },
+  "bootstrap_ci95": {
+    "eer_pct": [
+      7.1836,
+      12.1429
+    ],
+    "auc": [
+      0.964243,
+      0.983339
+    ]
+  },
+  "std_floor": 0.01,
+  "std_floor_mode": "relative",
+  "n_bands_floored": 0,
+  "min_std": 1.7635020017623901,
+  "std_clip": 0.0,
+  "max_abs_standardized_train": 19.957,
+  "max_abs_standardized_dev": 17.771,
+  "max_abs_standardized_eval": 18.667,
+  "eval_score_std": 0.370398974285973,
+  "eval_n_distinct_scores": 666,
+  "train_duration_sec": 2381.59,
+  "mean_epoch_sec": 79.384,
+  "peak_rss_mb": 1248.5
+}

@@ -1,0 +1,7 @@
+{
+ "model": "microsoft__wavlm-base",
+ "n_files": 2882,
+ "crop_s": 4.0,
+ "seconds": 1818.7,
+ "torch": "2.13.0+cpu"
+}

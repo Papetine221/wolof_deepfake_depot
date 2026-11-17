@@ -1,0 +1,7 @@
+{
+ "model": "facebook__wav2vec2-xls-r-300m",
+ "n_files": 2882,
+ "crop_s": 4.0,
+ "seconds": 5375.5,
+ "torch": "2.13.0+cpu"
+}

@@ -1,0 +1,74 @@
+{
+ "G1 triviaux|lineaire": {
+  "auc_all": 0.557,
+  "per_system": {
+   "S01": 0.58,
+   "S02": 0.56,
+   "S03": 0.54,
+   "S05": 0.55
+  }
+ },
+ "G1 triviaux|arbres": {
+  "auc_all": 0.612,
+  "per_system": {
+   "S01": 0.62,
+   "S02": 0.63,
+   "S03": 0.57,
+   "S05": 0.63
+  }
+ },
+ "G2 spectre|lineaire": {
+  "auc_all": 0.829,
+  "per_system": {
+   "S01": 0.82,
+   "S02": 0.8,
+   "S03": 0.9,
+   "S05": 0.8
+  }
+ },
+ "G2 spectre|arbres": {
+  "auc_all": 0.813,
+  "per_system": {
+   "S01": 0.81,
+   "S02": 0.8,
+   "S03": 0.89,
+   "S05": 0.75
+  }
+ },
+ "G3 temporel|lineaire": {
+  "auc_all": 0.749,
+  "per_system": {
+   "S01": 0.77,
+   "S02": 0.76,
+   "S03": 0.89,
+   "S05": 0.6
+  }
+ },
+ "G3 temporel|arbres": {
+  "auc_all": 0.794,
+  "per_system": {
+   "S01": 0.84,
+   "S02": 0.85,
+   "S03": 0.87,
+   "S05": 0.64
+  }
+ },
+ "TOUS|lineaire": {
+  "auc_all": 0.872,
+  "per_system": {
+   "S01": 0.88,
+   "S02": 0.87,
+   "S03": 0.94,
+   "S05": 0.81
+  }
+ },
+ "TOUS|arbres": {
+  "auc_all": 0.869,
+  "per_system": {
+   "S01": 0.89,
+   "S02": 0.89,
+   "S03": 0.95,
+   "S05": 0.75
+  }
+ }
+}

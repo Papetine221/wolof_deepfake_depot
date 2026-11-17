@@ -1,0 +1,6 @@
+wavlm     grp8       EER par pli [2.3, 0.8, 6.4, 3.3, 6.5] -> moyenne 3.86 ± 2.50 | poolé 7.71 | sonde raccourcis 18.68 | par attaque {'S01': 10.1, 'S02': 8.7, 'S03': 2.2} | n_test 1012 | 52s
+wavlm     rand8      EER par pli [2.3, 0.0, 6.4, 1.5, 0.0] -> moyenne 2.04 ± 2.63 | poolé 2.37 | sonde raccourcis 12.17 | par attaque {'S01': 4.0, 'S02': 2.6, 'S03': 2.4} | n_test 1012 | 43s
+wavlm     rand       EER par pli [4.0, 0.0, 4.3, 3.7, 1.4] -> moyenne 2.66 ± 1.88 | poolé 3.69 | sonde raccourcis 12.90 | par attaque {'S01': 4.3, 'S02': 2.8, 'S03': 2.0} | n_test 1012 | 34s
+wav2vec2  grp8       EER par pli [4.0, 2.7, 13.1, 6.7, 2.0] -> moyenne 5.70 ± 4.51 | poolé 7.97 | sonde raccourcis 18.68 | par attaque {'S01': 8.3, 'S02': 10.1, 'S03': 2.4} | n_test 1012 | 41s
+wav2vec2  rand8      EER par pli [1.0, 0.0, 6.0, 4.4, 1.7] -> moyenne 2.63 ± 2.51 | poolé 4.35 | sonde raccourcis 12.17 | par attaque {'S01': 5.3, 'S02': 5.5, 'S03': 2.4} | n_test 1012 | 45s
+wav2vec2  rand       EER par pli [2.3, 3.0, 3.9, 6.7, 2.0] -> moyenne 3.58 ± 1.87 | poolé 3.62 | sonde raccourcis 12.90 | par attaque {'S01': 4.0, 'S02': 3.8, 'S03': 3.4} | n_test 1012 | 36s

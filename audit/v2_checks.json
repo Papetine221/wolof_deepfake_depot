@@ -1,0 +1,34 @@
+{
+ "S01": {
+  "n": 555,
+  "sim_source": 0.4934985052601241,
+  "sim_cible": 0.4934985052601241,
+  "sim_autres_du_pli": 0.21375647751396304,
+  "cible_gt_source": 0.0
+ },
+ "S02": {
+  "n": 562,
+  "sim_source": 0.21674261384335383,
+  "sim_cible": 0.48510543438291104,
+  "sim_autres_du_pli": 0.20828295962883364,
+  "cible_gt_source": 0.9341637010676157
+ },
+ "S03": {
+  "n": 542,
+  "sim_source": 0.12681100417763627,
+  "sim_cible": null,
+  "sim_autres_du_pli": 0.12332675249549488,
+  "cible_gt_source": null
+ },
+ "S05": {
+  "n": 607,
+  "sim_source": 0.3318453877796058,
+  "sim_cible": 0.5879411782572258,
+  "sim_autres_du_pli": 0.26581073443127623,
+  "cible_gt_source": 0.9472817133443163
+ },
+ "reel": {
+  "sim_propre": 0.7229016026506176,
+  "sim_autres_du_pli": 0.25219616529761585
+ }
+}

@@ -1,0 +1,7 @@
+{
+ "model": "facebook__mms-300m",
+ "n_files": 2882,
+ "crop_s": 4.0,
+ "seconds": 7045.5,
+ "torch": "2.13.0+cpu"
+}

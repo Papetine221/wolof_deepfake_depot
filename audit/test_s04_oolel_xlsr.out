@@ -1,0 +1,8 @@
+clips S04 egalises 8 [('p0035_000', 0), ('p0035_001', 0), ('p0088_000', 0), ('p0088_001', 0), ('p0102_000', 0), ('p0102_001', 0), ('p0113_000', 1), ('p0113_001', 1)]
+controle extraction, ecart max 5.245208740234375e-06
+seuil EER hors-pli 1.360 (EER 0.83 %)
+scores S04 [-10.18, -4.48, -12.87, -4.54, -3.44, -14.82, -9.96, -6.44]
+detectes comme faux au seuil EER : 0 / 8 ; au seuil 0 : 0 / 8
+Clopper-Pearson 95 % : 0.0 a 36.9 %
+AUC S04 vs vrais (scores hors-pli) : 0.631
+EER S04 vs vrais : 48.46 %
