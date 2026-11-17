@@ -38,7 +38,7 @@ def inner(FX, y, fold, sysm, trfolds, layer, pool, C, drop_sys):
     drop = list(drop_sys)
     for vf in trfolds:
         tr = np.isin(fold, [f for f in trfolds if f != vf]) & ~np.isin(sysm, drop)
-        va = (fold == vf)
+        va = (fold == vf) & ~np.isin(sysm, drop)  # la famille laissee de cote est aussi exclue de la validation interne
         sc[va] = fit_score(FX[(layer, pool)][tr], y[tr], FX[(layer, pool)][va], C)
     m = ~np.isnan(sc)
     return layer, pool, C, eer(sc[m], y[m]), roc_auc_score(y[m], sc[m])
